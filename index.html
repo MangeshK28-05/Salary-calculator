@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>SALARY CHECKER</h2>
+    <div class="input-group">
+        <input type="number" id="Annual-salary" placeholder="Annual salary (₹)" />
+        <input type="number" id="Working-hours" placeholder="Work hours / day" />
+        <button id="calculate">BREAK IT DOWN</button>
+        <button id="reset">RESET</button>
+    </div> 
+    <div class="results">
+        <div>
+            <h3>Monthly Salary</h3>
+            <p id="monthly">₹0</p>
+        </div>
+        <div >
+            <h3>Weekly Salary</h3>
+            <p id="weekly">₹0</p>
+        </div>
+         <div>
+            <h3>Daily Salary</h3>
+            <p id="daily">₹0</p>
+        </div>
+        <div>
+            <h3>Hourly Salary</h3>
+            <p id="hourly">₹0</p>
+        </div>
+    <h2>GOAL AMOUNT</h2>
+    <div class="input-group2">
+        <input type="number" id="goal-amount" placeholder="Enter goal amount (₹)" />
+        <button class="calculate-goal">CALCULATE</button>
+        <button class="reset-goal">RESET</button>
+    </div>
+    <div class="results2">
+        <div class="time">
+            <p class="years">YEARS</p>
+            <p class="months">MONTHS</p>
+            <p class="days">DAYS</p>
+        </div>
+    </div>
+    <h4>*CALCULATED AS WORKING DAYS*</h4>
+</body>
+</html>
